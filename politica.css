@@ -1,0 +1,54 @@
+body{
+
+    background-color: lightgray;
+    border: solid 4px;
+}
+
+.titulo{
+
+    text-align: center;
+    background-color: gray;
+
+}
+
+header{
+    background-color: gray;
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer{
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.vacina img{
+    width: 50%;
+    height: 50%;
+}
