@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/fundomenu.jpg);
+    background-image: url("img/fundomenu.jpg");
     border: solid 4px rgb(180, 144, 96)
 }
 .titulo{
