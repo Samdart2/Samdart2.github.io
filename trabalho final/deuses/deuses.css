@@ -1,0 +1,147 @@
+body{
+
+    background-color: rgb(219, 219, 157);
+    
+    border: solid 4px rgb(192, 157, 80); 
+
+    
+}
+
+h1{
+    color: black;
+    text-align: center;
+    background-color: rgba(207, 207, 129, 0.671);
+    
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+   
+}
+
+.titulo{
+
+    text-align: center;
+    background-color: rgb(39, 38, 38);
+    color: white;
+
+}
+
+header{
+    background-color: rgb(39, 38, 38);
+}
+
+#menu-trigger {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    margin-left: 10px;
+    text-align: left;
+    cursor: pointer;
+    }
+     
+    .menu-trigger div {
+    width: 30px;
+    height: 4px;
+    background: white;
+    margin-top: 3px;
+    }
+
+    .menu-hidde {
+        background-image: url(../img/fundomenu.jpg);
+        width: 185px;
+        height: 100%;
+        position: absolute; 
+        box-shadow: 1px 2px 3px #DDD;
+        left: -100%;  
+        transition: left .5s;
+        }
+         
+        .menu-hidde li {
+        color: #fff;
+        font-size: 20px;
+        padding: 18px;
+        cursor: pointer;
+        }
+         
+        .menu-hidde ul {
+        position: absolute;
+        top: 31px;
+        
+        }
+        .menu-hidde a{
+            color: white;
+            font-family: cursive;
+        }
+
+
+.odin img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    text-align: left;
+    background-color:rgb(67, 67, 119);
+    border: 1px solid rgb(192, 157, 80);
+    
+}
+
+.thor img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    text-align: right;
+    background-color:rgb(67, 67, 119);
+    border: 1px solid rgb(192, 157, 80);
+}
+
+.loki img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    text-align: right;
+    background-color:rgb(67, 67, 119);
+    border: 1px solid rgb(192, 157, 80);
+}
+
+.heimdall img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    text-align: center;
+    background-color:rgb(67, 67, 119);
+    border: 1px solid rgb(192, 157, 80);
+}
+
+.arvore img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    text-align: center;
+    background-color:rgb(67, 67, 119);
+    border: 1px solid rgb(192, 157, 80);
+}
+footer{
+    background-color: rgb(39, 38, 38);
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
